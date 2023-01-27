@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="notes.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <img src="icon.jpeg" alt="icon" class="nav-img">
+       NOTES 
+    </nav>
+    <div class="container">
+        <div class="addnote">
+            <div class="title" >
+                Title:<br>
+               <input type="text" id="inptitle" placeholder="title" name="title">
+            </div>
+            <div class="notebody">
+                Note:<br>
+            
+                <textarea name="note-body" id="inpbody" cols="0" rows="0" onblur="document.getElementById('inpbody').innerHTML=this.value.replace('\n','<br/>')"  placeholder="type your note here"></textarea>
+            </div>
+            <div class="btngrp">
+                <div class="b1">
+                    <button><img src="+.png" alt="" srcset=""> ADD</button>
+                </div>
+                <div class="b2">
+
+                </div>
+            </div>
+        </div>
+        <!-- <div class="note">
+            <div class="title">
+                Title:
+            </div>
+            <div class="notebody">
+                Note:
+
+            </div>
+            <div class="btngrp">
+                <div class="b1">
+                    <button><img src="+.png" alt="" srcset=""> REMOVE</button>
+                </div>
+                <div class="b2">
+
+                </div>
+            </div>
+
+        </div> -->
+    </div>
+    <script src="notes.js"></script>
+
+</body>
+</html>
