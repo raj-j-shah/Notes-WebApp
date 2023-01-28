@@ -179,6 +179,17 @@ body{
         background-color: yellow;
     
     }
+body{
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        background-image: url('bg.png');
+        background-size:cover;
+      
+        background-repeat: no-repeat;
+    
+    }
   }
 .b2 button{
     display: flex;
